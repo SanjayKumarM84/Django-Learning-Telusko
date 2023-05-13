@@ -1,0 +1,41 @@
+#To check python version
+python --version
+
+#To check pip version
+pip --version
+
+#To check django version
+django-admin --version
+
+#Create virtual environment in windows tutorial link :- https://www.geeksforgeeks.org/creating-python-virtual-environment-windows-linux/
+
+#Install
+pip install virtualenv
+
+#Create
+virtualenv django-env
+
+#To activate env
+django-env\Scripts\activate
+
+#To deactivate env
+deactivate
+
+#To install django
+pip install django
+
+#To start a django project
+django-admin startproject telusko
+
+#To run django project
+python manage.py runserver
+
+#To start an app
+python manage.py startapp calc
+
+#To make migration
+python manage.py makemigrations
+
+#To create table
+python manage.py sqlmigrate travello 0001
+python manage.py migrate
